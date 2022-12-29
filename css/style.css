@@ -1,0 +1,124 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    color:#FD8A8A;
+    font-size: 437.5%;
+    width:100px;
+    margin:0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: #FD8A8A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #E97777;
+}
+a {
+    color:#E97777;
+    margin: 30px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color:#FD8A8A;
+}
+.first-container {
+    background-color:#FFD4B2;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom:1px;
+    position:relative;
+}
+.cloud1 {
+    position:absolute;
+    right:300px;
+    top:75px;
+}
+.cloud2 {
+    position: absolute;
+    left:300px;
+    top: 300px;
+}
+.left-mountain {
+    position:relative;
+    left:20px;
+    top:15px;
+}
+.right-mountain {
+    position:relative;
+    right:20px;
+    top:15px;
+}
+hr {
+    border: dotted #D8D9CF 6px;
+    border-bottom: none;
+    width: 6%;
+}
+.middle-container{
+    margin: 50px auto 50px auto;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height:2;
+}
+.paint {
+    width: 20%;
+    float: left;
+    margin-right: 30px;  
+}
+.baking {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #164373;
+    font-size: 22px;
+    background: #FFD4B2;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FFF6BD;
+    text-decoration: none;
+}
+
+.specific-heading {
+    font-weight: bold;
+}
+.contact-me {
+    line-height: 2;
+    width: 50%;
+    margin: 0 auto 40px auto;
+}
+.footer {
+    height: 100px;
+    line-height: 2;
+    background-color: #FFD4B2;
+    padding: 30px 0 20px;
+}
+.intro {
+    width:30%;
+    margin:0 auto 50px auto;
+    line-height: 2;
+}
+.contact-message {
+    width: 40%;
+    margin: 0 auto 50px auto;
+    line-height:2;
+}
